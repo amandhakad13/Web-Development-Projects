@@ -1,0 +1,394 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #232323;
+}
+
+/* home section start */
+
+.hero-section
+{
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/home-bg.jpg');
+    background-size: cover;
+}
+
+.nav-struct
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar
+{
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list
+{
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.language
+{
+    width: 135px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select
+{
+    width: 135px;
+    height: 35px;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.0);
+    border: 1px solid white;
+    color: white;
+}
+
+.language-para
+{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.sign-up-button
+{
+    width: 70px;
+    height: 35px;
+    background-color: #e50914;
+    text-align: center;
+    font-size: 1.12rem;
+    text-transform: capitalize;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-style
+{
+    text-decoration: none;
+}
+
+.hero-banner
+{
+    width: 100%;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-para
+{
+    width: 70%;
+    height: 240px;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.paragraph
+{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hero-link
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.email-search
+{
+    width: 374px;
+    height: 55px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0,0.0);
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 13px;
+}
+
+.hero-button
+{
+    width: 200px;
+    height: 55px;
+    background-color: #e50914;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.email-add
+{
+    display: flex;
+    align-items: center;
+}
+/* home section end */
+
+/* sections start */
+
+.sections
+{
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.style
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-info
+{
+    width: 75%;
+    height: 385px; 
+    display: flex;
+}
+
+.info
+{
+    width: 50%;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.head-style
+{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.para
+{
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.image
+{
+    width: 50%;
+    height: 385px;
+    background-image: url('../images/home-tv.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+video
+{
+    margin-top: 44px;
+    margin-right: 5px;
+}
+
+.img1
+{
+    background-image: url('../images/mobile-0819.jpg');
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sphead
+{
+    font-size: 3.5rem;
+}
+
+.stranger-head
+{
+    color: white;
+}
+
+.download
+{
+    width: 255px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(102, 100, 100);
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.stranger
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.buton
+{
+    padding-right: 10px;
+}
+
+.img2
+{
+    background-image: url('../images/home-imac.jpg');
+}
+
+.img3
+{
+    background-image: url('../images/child.png');
+}
+/* sections end */
+
+.section1
+{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main
+{
+    width: 80%;
+    height: 780px;
+}
+
+.main-head
+{
+    font-size: 2.8rem;
+    text-align: center;
+    color: white;
+}
+
+.main-rows
+{
+    width: 97.2%;
+    height: 85px;
+    background-color: #2d2d2d;
+    margin: 8px 0px;
+    color: white;
+}
+
+.main-rows:hover
+{
+    background-color: #414141;
+  
+}
+
+.main-que-rows
+{
+    margin-top: 24px;
+}
+
+.main-rows
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    padding-left: 30px;
+}
+
+.main-email1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    color: white;
+}
+
+.email-add1
+{
+    display: flex;
+    align-items: center;
+}
+
+.footer
+{
+    width: 100%;
+    height: 430px;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-main
+{
+    width: 80%;
+    height: 270px;
+    padding-left: 40px;
+}
+
+.footer-part2
+{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 20px;
+}
+
+.footer-part3
+{
+    margin-top: 12px;
+}
+
+.footer-part4
+{
+    margin-top: 30px;
+}
+
+.footer-para
+{
+    font-size: 0.95rem;
+    text-decoration: underline;
+    font-weight: normal;
+}
