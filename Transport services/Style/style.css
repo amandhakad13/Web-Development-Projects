@@ -1,0 +1,429 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top info start */
+
+.top-info
+{
+    width: 100%;
+    background-color: #04233b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+}
+
+#email-small
+{
+    text-transform: lowercase;
+}
+
+.logo-style
+{
+    display: flex;
+}
+
+.top-info-img
+{
+    margin: 0px 6px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* top info end */
+
+/* navbar start */
+
+.navbar
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-head
+{
+    padding: 15px 24px;
+}
+
+.small-nav-head
+{
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+
+.nav-items
+{
+    display: flex;
+}
+
+.nav-list
+{
+    list-style: none;
+    padding: 20px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-link
+{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-search-img
+{
+    margin: 19px 21px;
+}
+
+/* navbar end */
+
+/* main header start */
+
+.main-header
+{
+    width: 100%;
+    background-image: url('../Images/slider-bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.main-header-sec1
+{
+    color: white;
+    padding: 135px 100px;
+    background-color: rgb(0, 0, 0,0.7);
+}
+
+.main-heading
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+.main-para
+{
+    margin: 30px 0px;
+}
+
+.main-readmore
+{
+    width: 165px;
+    background-color: #0a97b0;
+    text-align: center;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
+
+.main-readmore:hover
+{
+    background-color: #04233b;
+}
+
+.main-readmore-link
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+/* main header end */
+
+/* service section start */
+
+.service-section1
+{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 90px 0px;
+}
+
+.service-section2
+{
+    width: 100%;
+    /* background-color: red; */
+}
+
+.service-section3
+{
+    width: 80%;
+    /* background-color: violet; */
+   margin: auto;
+}
+
+.service-col1
+{
+    display: flex;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 29px 15px;
+}
+
+.service-section4
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.service-heading
+{
+    font-size: 33px;
+    text-transform: capitalize;
+}
+
+.service-para
+{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.service-col-head
+{
+    font-size: 28px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.service-col-para
+{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+#service-link
+{
+    text-decoration: none;
+    color: #04233b;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.service-logo-image
+{
+    margin: 0px 20px;
+}
+
+.service-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+/* service section end */
+
+/* about us section start */
+
+.about-us
+{
+    width: 100%;
+    /* background-color: aqua; */
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-section
+{
+    width: 80%;
+    /* background-color: red; */
+}
+
+.about-us-head
+{
+    width: 50%;
+    /* background-color: blue; */
+    float: left;
+    margin: 90px 0px;
+    
+}
+
+.about-us-image
+{
+    width: 50%;
+    background-color: #04233b;
+    display: flex;
+    align-content: center;
+    padding-left: 18px;
+}
+
+.about-us-heading
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.about-us-para
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.about-us-link
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+.about-us-hover
+{
+    width: 170px;
+    height: 45px;
+    background-color: aqua;
+    padding-top: 12px;  
+    transition: 0.5s;
+}
+
+.about-us-hover:hover
+{
+    background-color: #065968;
+}
+
+/* about us section end */
+
+/* tracing section start */
+
+.tracing-shipment
+{
+    width: 100%;
+    background-image: url('../Images/track-bg.jpg');
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.tracing-section
+{
+    width: 80%;
+    /* background-color: blueviolet; */
+    margin: 90px 0px;
+    color: white;
+}
+
+.tracing-heading
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.tracing-para
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.tracing-ship
+{
+    display: flex;
+    align-content: center;
+}
+
+.tracing-input
+{
+    width: 358px;
+    height: 42px;
+}
+
+.tracing-inputbox
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+.tracing-hover
+{
+    width: 170px;
+    height: 41.5px;
+    background-color: aqua;
+    padding-top: 12px;  
+    transition: 0.5s;
+}
+
+.tracing-hover:hover
+{
+    background-color: #065968;
+}
+
+
+/* tracing section end */
+
+
+
+
+@media (max-width:700px)
+{
+    .mediahidden
+    {
+        display: none;
+    }
+
+    .nav-list
+    {
+        display: none;
+    }
+
+    .service-section4
+    {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .tracing-ship
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+   
+}
+
+@media (max-width:800px)
+{
+    .nav-list
+    {
+        padding: 20px 7px;
+    }
+
+    .about-us-section
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:1920px) and (max-width:2900px)
+{
+    .main-header
+    {
+        background-size: cover;
+    }
+
+    .tracing-shipment
+    {
+        background-size: cover;
+    }
+}

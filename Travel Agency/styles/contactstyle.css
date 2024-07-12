@@ -1,0 +1,162 @@
+@font-face {
+    font-family: navbar;
+    src: url(../fonts/nav/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: heading;
+    src: url(../fonts/head/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: whole;
+    src: url(../fonts/whole/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: logo1;
+    src: url(../fonts/logo/Roboto-Black.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-nav-main {
+    width: 100%;
+    max-width: 1366px;
+    height: 60px;
+}
+
+.contact-nav {
+    width: 100%;
+    max-width: 1366px;
+    height: 60px;
+    background-color: rgb(16, 0, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.contact-nav1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-transform: capitalize;
+    margin: 15px;
+    transition: font-size 1s, background-color 1s;
+    font-family: navbar;
+}
+
+.contact-nav1:hover {
+    font-size: 21px;
+    background-color: black;
+}
+
+.contact {
+    width: 100%;
+    max-width: 1366px;
+    height: auto;
+    min-height: 840px;
+    background-color: rgb(125, 7, 255);
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: heading;
+}
+
+.row {
+    width: 100%;
+    max-width: 500px;
+    height: 310px;
+    background-color: rgb(229, 255, 18);
+    position: relative;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.text1 {
+    width: calc(50% - 30px);
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: calc(100% - 40px);
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    width: 30%;
+    height: 30px;
+}
+
+.sec3 {
+    width: 100%;
+    max-width: 1366px;
+    height: auto;
+    min-height: 340px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.col1 {
+    width: 80%;
+    max-width: 366px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.foot-head1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: logo1;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: whole;
+}
+
+.foot-nav2 {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.foot-nav1 {
+    padding: 2px;
+    font-family: navbar;
+    text-align: center;
+}
