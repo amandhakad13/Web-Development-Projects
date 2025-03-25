@@ -20,7 +20,7 @@
 }
 
 .book_main {
-    max-width: 1366px;
+    /* max-width: 1366px; */
     margin: 0 auto;
 }
 
@@ -348,12 +348,15 @@ h1 {
 .text7
 {
     width: 100px;
-    height: 30px;
+    height: 40px;
     transform: translate(25px,15px);
     background-color: orangered;
     color: white;
     font-size: 18px;
     text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 8px;
 }
 
 .text7:hover
@@ -370,7 +373,7 @@ label
     font-size: 18px;
 }
 
-/* Add responsive styles here */
+
 @media screen and (max-width: 768px) {
     .book-nav {
         flex-direction: column;

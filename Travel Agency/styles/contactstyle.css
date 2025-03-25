@@ -26,13 +26,11 @@
 
 .contact-nav-main {
     width: 100%;
-    max-width: 1366px;
     height: 60px;
 }
 
 .contact-nav {
     width: 100%;
-    max-width: 1366px;
     height: 60px;
     background-color: rgb(16, 0, 147);
     display: flex;
@@ -61,7 +59,6 @@ li {
 
 .contact {
     width: 100%;
-    max-width: 1366px;
     height: auto;
     min-height: 840px;
     background-color: rgb(125, 7, 255);
@@ -113,13 +110,12 @@ li {
 
 .sec3 {
     width: 100%;
-    max-width: 1366px;
     height: auto;
     min-height: 340px;
     background-color: #333;
     color: white;
     position: relative;
-    top: 60px;
+    top: 80px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

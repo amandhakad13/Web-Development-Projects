@@ -155,7 +155,6 @@ a {
     text-decoration: none;
 }
 
-/* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
     .nav1 {
         display: none;

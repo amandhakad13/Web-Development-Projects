@@ -25,12 +25,11 @@
 }
 
 .services_main {
-    max-width: 1366px;
     margin: 0 auto;
     background-image: url('../images/resort.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
 }
 
 .services-nav-main {

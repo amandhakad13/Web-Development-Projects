@@ -167,7 +167,6 @@ img.google-img1 {
     text-align: center;
 }
 
-/* Media Queries */
 @media only screen and (max-width: 768px) {
     .container {
         flex-direction: column;
